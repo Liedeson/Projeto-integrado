@@ -1,0 +1,4 @@
+#Modelo de eventos
+npx sequelize-cli model:generate --name Eventos --attributes titulo:string,descricao:string,dt_evento:date,local:string
+#criando migração para eventos
+npx sequelize-cli migration:generate --name alterarEventos
